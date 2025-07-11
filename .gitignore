@@ -1,0 +1,88 @@
+# === Python (.venv managed by uv) ===
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+*.log
+.env
+.env.*
+
+# Pyright / Pylance
+typings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.history/
+
+# mypy
+.mypy_cache/
+
+# coverage
+htmlcov/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# LangChain & Firecrawl (optional logs or tmp)
+lc_logs/
+firecrawl_cache/
+tmp/
+cache/
+
+# === Node / Frontend (Next.js / React) ===
+node_modules/
+.next/
+out/
+.npm/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+*.local
+*.DS_Store
+
+# === Misc ===
+*.sqlite3
+*.db
+*.pem
+*.key
+*.crt
+.DS_Store
+*.log
+*.tmp
+
+# === OS Specific ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
